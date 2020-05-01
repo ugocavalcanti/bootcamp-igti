@@ -1,3 +1,1 @@
 # dirtest
-
-show
