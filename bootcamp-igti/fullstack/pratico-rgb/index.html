@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Definição de Cores RGB</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="./js/script.js"></script>
+  </head>
+  <body>
+    <h1 class="titulo">Definição de cores</h1>
+
+    <div class="rgb">
+      <div class="row">
+        <span class="label labelred">(R) Vermelho:</span>
+        <input class="range" value="0" type="range" name="rangeRed" id="idRangeRed" min="0" max="255"/>
+        <input class="text" type="text" name="textRed" id="idValueRed" disabled />
+      </div>
+      <div class="row">
+        <span class="label labelgreen">(G) Verde:</span>
+        <input class="range" value="0" type="range" name="rangeGreen" id="idRangeGreen" min="0" max="255"/>
+        <input class="text" type="text" name="textGreen" id="idValueGreen" disabled />
+      </div>
+      <div class="row">
+        <span class="label labelblue">(B) Azul:</span>
+        <input class="range" value="0" type="range" name="rangeBlue" id="idRangeBlue"    min="0"  max="255"/>
+        <input class="text" type="text" name="textBlue" id="idValueBlue" disabled />
+      </div>
+    </div>
+    <div class="painel" id="idPainel"></div>
+  </body>
+</html>

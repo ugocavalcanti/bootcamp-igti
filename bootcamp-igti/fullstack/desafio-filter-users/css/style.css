@@ -1,0 +1,54 @@
+.usuarios{
+    background-color: lightgray;
+    border-radius: 1%;
+    margin-left: 20px;
+    width: 600px;
+    padding-bottom: 10px;
+}
+
+.estatisticas{
+    background-color: lightgray;
+    border-radius: 1%;
+    margin-left: 20px;
+    width: 600px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+.resultado {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.form-buscar{
+    display: flex;
+    margin-left: 20px;
+}
+
+.button {
+    margin-left: 5px;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(4, 96, 124);
+    width: 70px;
+    height: 22px;
+    text-align: center;
+    color: white;
+}
+
+.user{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.titulos{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+}

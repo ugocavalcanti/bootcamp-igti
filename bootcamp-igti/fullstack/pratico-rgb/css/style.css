@@ -1,0 +1,41 @@
+.painel {
+  background-color: rgb(red, green, blue);
+  width: 8rem;
+  height: 8rem;
+  margin-left: 10rem;
+}
+
+.titulo{
+  margin-left: 100px;
+}
+
+.rgb {
+  margin: 3rem;
+}
+
+.row{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.range{
+    min-width: 150px;
+}
+.label{
+    min-width: 100px;
+}
+
+.text{
+  margin-left: 10px;
+  width: 50px;
+}
+
+.labelred{
+  color: red;
+}
+.labelgreen{
+  color: green;
+}
+.labelblue{
+  color: blue;
+}

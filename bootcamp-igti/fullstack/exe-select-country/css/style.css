@@ -1,0 +1,27 @@
+img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.container-countries{
+    display: flex;
+    margin-left: 350px;
+}
+
+.countries-list {
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.country{
+    display: flex;
+}
+
+h2 {
+    text-align: center;
+}
