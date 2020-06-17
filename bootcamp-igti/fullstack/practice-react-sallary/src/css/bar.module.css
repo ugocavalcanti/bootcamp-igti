@@ -1,0 +1,17 @@
+.barLiquidSalary {
+    background-color: #16a085  ;
+    min-height: 15px;
+
+  }
+  
+  .barINSS {
+    background-color: #e67e22 ;
+  }
+  
+  .barIRPF {
+    background-color:  #c0392b;
+  }
+
+  .flexRow {
+      display: flex;
+  }
