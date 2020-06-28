@@ -1,35 +1,24 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import Spinner from './components/Spinner';
 import Header from './components/Header';
 import Candidates from './components/Candidates';
 
-export default class App extends Component {
-  constructor(){
-    super();
+export default function App() {
+  const [candidates, setCandidates] = useState([]);
 
-    this.state = {
-      candidates: [],
-    }
-
-    this.interval = null;
-  }
-
-  componentDidMount() {
-    this.interval = setInterval(() =>  {
+  useEffect(() => {
+    const interval = setInterval(() =>  {
       fetch("http://localhost:8080/votes").then(res => {
         return res.json().then(json => {
 
-          this.setState({
-            candidates: json.candidates,
-          });
+         setCandidates(json.candidates);
         });
       });
     }, 1000);
-  }
-
-
-  render() {
-    const { candidates } = this.state;
+    return () => {
+      clearInterval(interval);
+    }
+  }, [candidates]);
 
     if (candidates.length === 0){
       return (<Spinner />)
@@ -40,5 +29,4 @@ export default class App extends Component {
       <Candidates candidates={candidates} />
     </div>
     )
-  }
 }
