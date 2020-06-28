@@ -1,0 +1,38 @@
+.flexRow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.flexRowForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.parcela {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    width: 130px;
+}
+
+.green {
+    color: green;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
